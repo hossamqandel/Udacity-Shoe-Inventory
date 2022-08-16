@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="enter_your_e_mail">ادخل البريد الالكتروني</string>
+    <string name="enter_your_password">ادخل كلمة المرور</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="sign_up">انشاء حساب جديد</string>
+
+    <string name="blank">هذا الحقل يجب ان لا يكون فارغ</string>
+    <string name="email_pattern">البريد الذي ادخلته غير صحيح الرجاء ادخال البريد بشكل صحيح</string>
+    <string name="password_length">كلمة المرور يجب ان تكون اكبر من 8 احرف</string>
+    <string name="welcome">مرحباً</string>
+    <string name="go_to_instructions">انتقل الى التعليمات</string>
+    <string name="don_t_duplicate_your_items">لا تكرر المنتج</string>
+    <string name="please_add_real_product_data">من فضلك اضف بيانات حقيقة للمنتج</string>
+    <string name="brows_data">تصفح المنتجات</string>
+    <string name="add">اضافة</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="item_added_to_cart">تم اضافة العنصر الى سلة المشتريات بنجاح</string>
+    <string name="shoe_name">اسم الحذاء:</string>
+    <string name="shoe_company">اسم الشركه:</string>
+    <string name="shoe_size">حجم الحذاء:</string>
+    <string name="shoe_description">وصف الحذاء:</string>
+    <string name="enter_shoe_name">ادخل اسم الحذاء</string>
+    <string name="enter_shoe_company">ادخل اسم الشركه</string>
+    <string name="enter_shoe_size">ادخل حج الحذاء</string>
+    <string name="enter_shoe_description">ادخل وصف الشركه</string>
+    <string name="cancel">الغاء</string>
+    <string name="next">التالي</string>
+
+
+</resources>

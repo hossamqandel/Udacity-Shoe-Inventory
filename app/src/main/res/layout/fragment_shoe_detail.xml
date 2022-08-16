@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="mViewModel"
+            type="com.android.udacityfirst.ui.shoe.ShoeViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="8dp"
+        android:orientation="vertical"
+        tools:context=".ui.shoe_details.ShoeDetailFragment">
+
+        <!-- I am using LinearLayout because in portrait mode -->
+        <!-- all views will be 100% visible t the user and linear her will not effect -->
+        <!-- on performance because we have count of items that not repeated as recyclerview do -->
+
+        <EditText
+            android:id="@+id/et_shoeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:hint="@string/enter_shoe_name"
+            android:paddingHorizontal="6dp"
+            android:text="@={mViewModel.virtualShoe.shoeName}" />
+
+        <EditText
+            android:id="@+id/et_shoeCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:hint="@string/enter_shoe_company"
+            android:paddingHorizontal="6dp"
+            android:text="@={mViewModel.virtualShoe.shoeCompany}" />
+
+        <EditText
+            android:id="@+id/et_shoeSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:hint="@string/enter_shoe_size"
+            android:paddingHorizontal="6dp"
+            android:text="@={mViewModel.virtualShoe.shoeSize}" />
+
+        <EditText
+            android:id="@+id/et_shoeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:hint="@string/enter_shoe_description"
+            android:paddingHorizontal="6dp"
+            android:text="@={mViewModel.virtualShoe.shoeDescription}" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="197dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_addShoe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/add"
+                android:backgroundTint="@color/blue_sky"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline10"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/dark_mood"
+                android:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">UdacityFirst</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="enter_your_e_mail">Enter your e-mail</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+
+    <!--  Error Messages  -->
+    <string name="blank">This Field should not be empty.</string>
+    <string name="email_pattern">This email pattern is not correct, please enter correct email.</string>
+    <string name="password_length">Password length should be more than 8 chars</string>
+    <string name="welcome">Welcome</string>
+    <string name="go_to_instructions">Go to instructions</string>
+    <string name="don_t_duplicate_your_items">Don\'t duplicate your items</string>
+    <string name="please_add_real_product_data">Please add real product data</string>
+    <string name="brows_data">Browse products</string>
+    <string name="add">Add</string>
+    <string name="log_out">Log out</string>
+    <string name="item_added_to_cart">Item has been added successfully</string>
+    <string name="shoe_name">Shoe Name:</string>
+    <string name="shoe_company">Shoe Company:</string>
+    <string name="shoe_size">Shoe Size:</string>
+    <string name="shoe_description">Shoe Description:</string>
+    <string name="enter_shoe_name">Enter shoe Name</string>
+    <string name="enter_shoe_company">Enter shoe Company</string>
+    <string name="enter_shoe_size">Enter shoe Size</string>
+    <string name="enter_shoe_description">Enter shoe Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+</resources>
